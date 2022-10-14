@@ -1,0 +1,204 @@
+Questions on CH1
+
+!Q. What is an expression
+!A. An expression consists of values, evaluations, and/or operators.
+
+!Q. What is a statement
+!A. Statements are the lines of code a Python interpreter executes.
+
+!Q. What does the continuation character ('\') do?
+!A. The singular continuation character, or escape character, will at the end of a line tell Python to continue executing the code on the following line, or escape any following character.
+
+!Q. What is the Floor of a number?
+!A. The floor of a number will be the lowest whole integer of that number. i.e. 3.4 would be 3
+
+!Q. What is Floor Division and it's operator?
+!A. Floor division has the '//' operator, and will return the lowest whole integer of two values.
+
+!Q. What is the operator for exponent and the syntax for it's values?
+!A. The operator for exponent is '**' and is used to raise the left side value by the right side value.
+
+!Q. Why is eggs a valid variable name while 100 is invalid?
+!A. Variable names cannot begin with a number. They can include a number.
+
+!END CH1.
+
+
+
+Questions on Universal Python 1-2
+
+!Q. What are some things the Operator Module can do?
+!A. The Operator Module allows the use of operator abilities such as evaulating operator.add(l_value, r_value).
+
+!Q. What is the .pyw extensions use?
+!A. The .pyw extension will tell the Python interpreter to run the script without opening a terminal window. For example: Multiclipboard when provided command line arguments will when run automatically store the arguments without the need to open a window.
+
+!Q. What does the count() method do?
+!A. Python's built in count() method function will return how many times a given argument in count() occurs in the value it is called on. For example: list.count('Hello')
+
+!Q. List all the modes a file can be opened.
+!A. All modes to open a file in Python are r, r+, w, w+, a, and a+.
+
+!Q. Explain what opening a file with r or r+ will do.
+!A. A file opened in r mode will be opened as read-only. Meaning no adjustments can be made to the file but data can be withdrawn. A file opened in r+ mode will be opened as read and write with the pointer starting at the beginning of the file. If the file doesn't exist, r+ will not create one and will throw a FileNotFoundError.
+
+!Q. Explain what opening a file with w or w+ will do.
+!A. A file opened in w mode will open the file as write-only mode. The pointer will begin at the start of the file and can have data be written. If a file doesn't exist with the filename specified, one will be created. A file opened in w+ will open the file as write and read mode. A file opened this way will have its content deleted first when opening. w+ will create a new file if no file exists.
+
+!Q. Explain what opening a file with a or a+ will do.
+!A. A file opened in a mode will be opened as append mode. The pointer will begin at the end of the file where data can be written. A new file will be created if one doesn't exist. A file opened with a+ will be opened as append and read mode.
+
+!END Universal Python 1-2.
+
+
+Questions on HTML
+
+!Q. What does CSS stand for?
+!A. CSS stands for Cascading Style sheets
+
+!END HTML.
+
+
+Questions on CH2
+
+!Q. What is a condition?
+!A. A condition is an expression that evaluates to True or False.
+
+!Q. What do the break and continue statements do?
+!A. The break statement once executed will break out of either a while or for loop. The continue statement once executed will return to the top of a while loop rechecking the condition, or return to the top of a for loop iterating once through the condition.
+
+!Q. What are the 3 Boolean operators?
+!A. The 3 Boolean operators are and, or, and not.
+
+!Q. What is a block?
+!A. A block in coding is any grouping of statements meant to be executed together. In Python this is marked by statements being similarly indented.
+
+!Q. What is the command for KeyboardInterrupt and what does it do?
+!A. The command for KeyboardInterrupt is Ctrl+C, and will interrupt and stop a running program.
+
+!Q. What does the sys.exit() function do?
+!A. When importing sys and calling sys.exit(), sys.exit() will immediately close the currently running program. Similar to reaching the end of a program.
+
+!Q. If I wanted individual functions from a module, what statement would I use?
+!A. To get individual functions from a module instead of importing the entire module, you can use the statement: from x import y, where x is the module and y is the name of the function.
+
+!Q. What does the round() function do?
+!A. The round() function will by default round the argument to the nearest integer. A second argument x can be added to tell round() to round to x  decimal places.
+
+!Q. What does the abs() function do?
+!A. The abs() function will return the absolute value of given argument. The absolute value of a number is how far that number is from 0, and can never be negative.
+
+!END CH2.
+
+
+Questions on CH3
+
+!Q. What is a function and the proper syntax to make one?
+!A. A function is a name given to a set of pre-defined code that when called executes to return a value and/or operation. To make a function, the proper syntax would be: def function_name(arguments): and the body of the function beneath.
+
+!Q. What is a parameter?
+!A. When defining a function in Python, a parameter acts as a place holder where an argument will go. When a function is called, an argument passes its value to the parameter and wherever the parameter is used in the function for execution.
+
+!Q. What is the None value?
+!A. None is the only value of the NoneType data type (Boolean has two, True and False), and represents the absence of a value. One use of None is seen in the print() function, where print is used to print to screen text but does not necessarily need to return anything, thus returns None.
+
+!Q. What are arguments and keyword arguments?
+!A. Arguments and keyword arguments are placed inside the parenthesis of functions to give functions values or parameters to work with, respectively. An argument consists of a value (or operation that returns a value) and a keyword argument consists of a keyword name assigned to a value (i.e. end='').
+
+!Q. What are local and global scope variables?
+!A. Local scope variables are variables that can only be used inside the scope of a function and get erased when the function returns. Global scope variables are variables that are outside of all functions and can be used outside and inside functions.
+
+!Q. How could you modify a global variable inside of a function?
+!A. A global variable can be modified inside of a function by declaring "global variable_name" at the beginning of the function, telling the interpreter anything inside the function addressing variable_name addresses the global variable variable_name.
+
+!Q. If you anticipate an error and want to handle it a specific way, how would code that?
+!A. If you would like to handle an anticipated error (i.e. ZeroDivisionError) a specific way rather than having the program crash, you would use the try: and except {error_code}: statements, where the body of try: would compose of the code you'd like to run, and the body of except {error_code}: would compose of code you'd like to run if given {error_code} is raised.
+
+!END CH3.
+
+
+Questions on CH4
+
+!Q. What is a list and what are a list's items?
+!A. A list is a data type in Python that contains multiple values enclosed in square brackets. A list's values are also known as items and can be of many data types.
+
+!Q. What is an index?
+!A. An index is a position in a string or list. Written as an integer surrounded by square brackets directly following the string or list, an index will return the value at the given integer of the string or list.
+
+!Q. Generally, what does list_value[-1] return?
+!A. list_value[-1] points at the last position in the list and will return the last value. Negative indexes give values from the last position to the first.
+
+!Q. What is slice?
+!A. Slice is a built in mechanic in Python that allows a programmer to "slice" a list or string to return a part of section of the list or string.
+
+!Q. How would a programmer code a slice?
+!A. To do write a slice, a programmer would give an index with an integer marking the index of the beginning of the slice, a colon, followed by an integer marking but not including the index of the end of the slice. A slice must include either the beginning or end of a slice, but can have a blank for the other integer to tell Python to slice everything after or before the index respectively.
+
+!Q. How would a programmer access a list inside a list?
+!A. To access lists within lists in Python, a programmer can write multiple indexes in sequence on a list value, with each index going one layer deeper into the list value.
+
+!Q. What is the len() built in function in Python?
+!A. The len() function will return the amount of items in a passed argument.
+
+!Q. How might a programmer combine two lists together?
+!A. One solution to combining two lists together is to concatenate the two with an addition operator. Doing this would add the second value to the end of the first value.
+
+!Q. How might a programmer duplicate a list?
+!A. One solution to duplicating a list is to use the multiplication operator to multiply the list by a given number.
+
+!Q. What is the del statement and how is it used?
+!A. The del statement is short for delete, and will delete the object following the statement. This object can include a declared variable or a list's index.
+
+!Q. What is the remove() method and how is it used?
+!A. The remove method is a method for the list data type that when called on a list will remove a given argument from a list.
+
+!Q. What is the sort() method and how is it used?
+!A. The sort() method is a method for the list data type that when called on a list will by default sort in place the list asciibetically (in order of ascii table of char i.e. A-z) or numerically. A TypeError will be raised if the list contains both characters and numbers.
+
+!Q. When sort is passed the keyword arguments key=str.lower or reverse=True, how will sort change?
+!A. Passing the keyword argument key=str.lower will tell sort to sort all items in the list as if they were lowercase. Passing the keyword argument reverse=True will tell sort to sort all items in reverse order.
+
+!Q. What does it mean for a data type to be mutable or immutable?
+!A. A mutable data type is a data type that can have its value changed. An immutable data type is a data type that cannot have it's value changed (A string). i.e. A list can have it's items changed but a tuple cannot.
+
+!Q. What is a tuple?
+!A. Similar to a list, a tuple stores items in a single object, but opposite to a list, a tuple is an immutable data type, thus cannot have it's items changed. Tuples are differentiated from lists by the parenthesis syntax instead of square brackets. A single item tuple must contain a comma after the first item so Python can distinguish the object as a tuple.
+
+!Q. What do the list() and tuple() functions do?
+!A. The list() and tuple() functions when called will convert the argument given into a list or tuple data type respectively. i.e. passing a tuple to list() will convert the tuple to a list data type. A string can also be passed as an argument into list() and tuple().
+
+!Q. What is a reference?
+!A. A reference is a variable or name that points to a place in memory and it's data.
+
+!Q. How do references apply to the list data type?
+!A. When assigning a list to a variable, Python will assign a reference to the location of the list to the variable. This means when spam = [1, 2, 3], bacon = spam, any changes to bacon will also effect spam because both reference list [1, 2, 3]. (i.e. del bacon[0], spam == [2, 3])
+
+!Q. Why are arguments of references important when passing them to functions?
+!A. When passing an argument that is a reference as an argument for a function, the programmer must understand that unlike how functions normally work locally, any changes to that argument inside the function will effect it globally since it is not changing the argument itself, but the data at the location it is referenced.
+
+!END CH4.
+
+
+Questions on Universal Python Notes 3-4
+
+!Q. What is the difference between spam.text, spam.read(), and spam.getText()?
+!A. .text is a method to return the string form of a Response Object. Imported from the Response module, Reponse Objects are evaluated from the requests.get(link) function.
+read() is a method for a File Object, and will return the string of the File Object evaluated from open(file_name) function.
+getText() is a method for a Tag Object, and will return the string of the text in any Tag Objects found in a list evaluated from the bs4 module, beautifulSoupObject.select(tag) matches.
+
+!Q. What is the function of os.walk(path, topdown=True/False)?
+!A. os is a module that allows basic functions to interact with the operating system. The walk(path) function when called will return a 3 item tuple containing items directory_path walk() is looking at, a list data type of directory_names inside path, and a list data type of file_names inside path, respectively. From the top down walk() will proceed to the next directory in path and create a new 3 item tuple. Setting the topdown keyvalue argument to False will make walk() start from the bottom of the lowest directory and move up.
+
+!Q. How does Python treat x, y, z = (1, 2, 3)(2, 1, 3)(3, 1, 2) and x, y, z = (1, 2, 3)
+!A. Python can assign multiple variables to multiple values respectively. In the first case, x, y, z will be assigned the three seperate tuples respectively. In the second case, Python can in iterable objects assign the values inside the objects to variables (you must have equal amount variables to values), thus x, y, z would be assigned 1, 2, 3.
+
+!Q. What is an API?
+!A. An API stands for Application Programming Interface, and gives users and programmers the ability to give instructions and\or inputs to another program through an interface, have the API decipher the instructions to the program, then come back with data.
+
+!Q. What is JSON?
+!A. A JSON stands for JavaScript Object Notation, and is the human-readable syntax in which JavaScript is written.  
+
+!Q. What is an SDK?
+!A. An SDK is a Software Development Kit, and gives programmers the basic tools to build a program to work with another program (i.e. Windows), such as IDE's, compilers, libraries, etc.  
+
+!END Universal Python Notes 3-4.
